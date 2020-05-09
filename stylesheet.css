@@ -1,0 +1,245 @@
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), silver, rgba(0, 0, 0, 0));
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* HOME */
+
+#photo_home {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+#pictos_RS {
+    height: 1.6rem;
+    width: auto;
+    margin: 0 0.5rem 0 0.5rem;
+    vertical-align: middle;
+}
+
+#middle {
+    text-align: center;
+    padding: 2rem;
+}
+
+#texte_instagram {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+
+/* CONTACT */
+
+#italique {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    -webkit-font-smoothing: antialiased;
+    font-style: italic;
+}
+
+#email {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    color: silver;
+}
+
+#link_email {
+    text-decoration: none;
+    color: silver;
+}
+
+/* Desktop */
+@media screen and (min-width: 840px)
+{
+
+    #formulaire_contact {
+        width: auto;
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+    }
+
+    input {
+        height: 3rem;
+        width: 100%;
+        max-width: 25rem;
+        margin-top: 0.3rem;
+    }
+
+    textarea {
+        width: 100%;
+        max-width: 25rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 839px)
+{
+    #formulaire_contact {
+        width: auto;
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+    }
+
+    input {
+        height: 2rem;
+        width: 100%;
+        max-width: 15rem;
+        margin-top: 0.3rem;
+    }
+
+    textarea {
+        width: 100%;
+        max-width: 15rem;
+    }
+}
+
+/* FOOTER */
+
+/* Desktop */
+@media screen and (min-width: 840px)
+{
+    #footer {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        color: silver;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 839px)
+{
+    #footer {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        color: silver;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+/* MENU */
+
+/* Desktop */
+@media screen and (min-width: 840px)
+{
+    #menu_mobile {
+        display: none;
+    }
+
+    #horizontal_list {
+        list-style: none;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        padding: 1rem 0 0 0;
+        text-align: center;
+    }
+    ul li.horizontal {
+        display: inline-block;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #liens_menu {
+        color: silver;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 1rem;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    #liens_menu:hover {
+        color: black;
+    }
+
+    #size_logo {
+        height: 8rem;
+        width: auto;
+        vertical-align: middle;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 839px)
+{
+    #menu_desktop {
+        display: none;
+    }
+
+    #vertical_list {
+        list-style: none;
+        padding: 0rem 0 0 0;
+        text-align: center;
+        margin: 0rem;
+    }
+
+    #horizontal_list {
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+        padding: 0rem 0 0 0;
+        text-align: center;
+    }
+    
+    ul li.horizontal {
+        display: inline-block;
+        text-align: justify;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #liens_menu {
+        color: silver;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 0.9rem;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    #liens_menu:hover {
+        color: black;
+    }
+
+    #size_logo {
+        height: 8rem;
+        width: auto;
+        vertical-align: middle;
+    }
+}
