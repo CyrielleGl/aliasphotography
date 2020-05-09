@@ -43,6 +43,17 @@ h3 {
     font-size: 0.8rem;
 }
 
+/* Traitement Formulaire */
+
+#traitement_formulaire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* CONTACT */
 
 #italique {
@@ -64,6 +75,14 @@ h3 {
 #link_email {
     text-decoration: none;
     color: silver;
+}
+
+fieldset {
+    max-width: 80rem;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Desktop */
@@ -94,6 +113,18 @@ h3 {
         width: 100%;
         max-width: 25rem;
     }
+
+    input#bouton_formulaire {
+        height: auto;
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+        
+    }
+
 }
 
 /* Mobile */

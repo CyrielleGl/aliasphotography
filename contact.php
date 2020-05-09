@@ -22,7 +22,7 @@
                 <p><label for="objet">Sujet</label><br/><input type="text" id="objet" name="objet" /></p>
                 <p><label for="message">Votre message</label><br/><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
         
-            <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+            <div style="text-align:center;"><input id="bouton_formulaire" type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
         </fieldset>
     </form>
 </div>
