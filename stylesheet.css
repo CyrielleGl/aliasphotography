@@ -19,6 +19,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 1rem;
 }
 
 .responsive {
@@ -52,6 +53,50 @@ h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+
+/* PORTFOLIO */
+
+/* Desktop */
+@media screen and (min-width: 840px)
+{
+    .portfolio_mobile {
+        display: none;
+    }
+    
+    @keyframes defilement {
+        0%{transform: translate(0,0);}
+        100%{transform: translate(-75%,0);}
+    }
+
+    .diapo {
+        width: 4400px;
+        height: 0;
+        padding-top: 75%;
+        background-color: #ededed;
+        background: url("./portfolio/carrousel.png");
+        background-size: contain;
+        animation: defilement 30s linear infinite;
+    }
+
+    .conteneur {
+        max-width: 1100px;
+        overflow: hidden;
+        margin: 50px auto;
+        box-shadow: 0px 0px 10px #777;
+    }
+
+    .diapo:hover {
+        animation-play-state: paused;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 839px)
+{
+    .portfolio_desktop {
+        display: none;
+    }
 }
 
 /* CONTACT */
