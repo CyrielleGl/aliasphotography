@@ -19,8 +19,6 @@ a {
 
 /* HOME */
 
-
-
 #pictos_RS {
     height: 1.6rem;
     width: auto;
@@ -56,6 +54,7 @@ a {
 /* Desktop */
 @media screen and (min-width: 840px)
 {
+
     #photo_home {
         max-width: 40%;
         display: block;
@@ -74,8 +73,9 @@ a {
     .responsive_portfolio {
         max-width: 85%;
         height: auto;
-        margin-right: 30rem;
-        margin-left: 30rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 2rem;
       }
 }
 /* Mobile */
@@ -118,7 +118,7 @@ a {
     table {
         margin: auto;
         padding: 1rem;
-
+        max-width: 80%;
     }
 
     td {
