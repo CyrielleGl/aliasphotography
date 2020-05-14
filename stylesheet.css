@@ -20,7 +20,7 @@ a {
 /* HOME */
 
 #photo_home {
-    width: 40rem;
+    max-width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
