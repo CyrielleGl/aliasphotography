@@ -12,6 +12,11 @@ h3 {
     -webkit-font-smoothing: antialiased;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* HOME */
 
 #photo_home {
@@ -42,6 +47,8 @@ h3 {
 #texte_instagram {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
 }
 
 /* Traitement Formulaire */
@@ -63,6 +70,17 @@ h3 {
     .portfolio_mobile {
         display: none;
     }
+
+    table {
+        margin: auto;
+        padding: 1rem;
+
+    }
+
+    td {
+        width: 33%;
+        vertical-align: top;
+    }
     
     @keyframes defilement {
         0%{transform: translate(0,0);}
@@ -70,17 +88,17 @@ h3 {
     }
 
     .diapo {
-        width: 4400px;
+        width: 4320px;
         height: 0;
         padding-top: 75%;
         background-color: #ededed;
-        background: url("./portfolio/carrousel.png");
+        background: url("./portfolio/carrousel-3240x720.png");
         background-size: contain;
         animation: defilement 30s linear infinite;
     }
 
     .conteneur {
-        max-width: 1100px;
+        max-width: 1080px;
         overflow: hidden;
         margin: 50px auto;
         box-shadow: 0px 0px 10px #777;

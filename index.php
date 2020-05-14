@@ -14,11 +14,11 @@
     <?php include("menu.php");?>
 
     <div>
-    <img src="./portfolio/img0.jpg" id="photo_home" class="responsive" alt="Portrait BNF Paris Hiver"/>
+    <img src="./portfolio/melanie-1.jpg" id="photo_home" class="responsive" alt="Portrait BNF Paris Hiver"/>
     </div>
 
     <div id="middle">
-        <p id="texte_instagram">Retrouvez-moi sur Instagram<a href="https://www.instagram.com/aliasphotography.fr/" target="blank"><img src="./Pictos/instagram.png" id="pictos_RS"/></a></p>
+        <a href="https://www.instagram.com/aliasphotography.fr/" target="blank"><p id="texte_instagram">Retrouvez-moi sur Instagram<img src="./pictos/instagram.png" id="pictos_RS"/></a></p>
     </div>
 
 

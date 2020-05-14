@@ -6,7 +6,7 @@
 
 <div>
     <h3>CONTACT</h3>
-    <p id="italique">Si mon travail vous plaît, n'hésitez pas à me le dire !</p>
+    <p id="italique">Mon travail vous plaît ? N'hésitez pas à me le dire !</p>
 
     <p id="email">Email</p>
     <p id="email"><a href="mailto:contact@aliasphotography.fr" id="link_email">contact@aliasphotography.fr</a></p>
