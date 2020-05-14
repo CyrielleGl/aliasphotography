@@ -20,7 +20,7 @@ a {
 /* HOME */
 
 #photo_home {
-    width: auto;
+    width: 40rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,8 +28,17 @@ a {
 }
 
 .responsive {
+    width: auto;
+    height: auto;
+    margin-right: 30rem;
+    margin-left: 30rem;
+  }
+
+.responsive_portfolio {
     max-width: 85%;
     height: auto;
+    margin-right: 30rem;
+    margin-left: 30rem;
   }
 
 #pictos_RS {
