@@ -4,7 +4,7 @@
 <div id="menu_desktop">
         <ul id="horizontal_list">
             <li class="horizontal"><a href="portfolio.php" id="liens_menu">PORTFOLIO</a></li>
-            <li class="horizontal"><a href="index.php"><img src="./logo-AP.png" title="Accueil" alt="logo Alias Photography" id="size_logo"/></a></li>
+            <li class="horizontal"><a href="home.php"><img src="./logo-AP.png" title="Accueil" alt="logo Alias Photography" id="size_logo"/></a></li>
             <li class="horizontal"><a href="contact.php" id="liens_menu">CONTACT</a></li>
         </ul>
 </div>
@@ -13,7 +13,7 @@
 
     <div>    
     <ul id="vertical_list">
-            <li><a href="index.php"><img src="./logo-AP.png" title="Accueil" alt="logo Alias Photography" id="size_logo"/></a></li>
+            <li><a href="home.php"><img src="./logo-AP.png" title="Accueil" alt="logo Alias Photography" id="size_logo"/></a></li>
         </ul>
     </div>
 
