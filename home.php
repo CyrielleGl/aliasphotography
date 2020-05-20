@@ -13,7 +13,7 @@
     <?php include("menu.php");?>
 
     <div>
-    <img src="./portfolio/melanie-1.jpg" id="photo_home" class="responsive" alt="Portrait BNF Paris Hiver"/>
+    <img src="./portfolio/claire-1.jpg" id="photo_home" class="responsive" alt="Shooting Elfe Blanc Hiver" title="Shooting Elfe Blanc Hiver"/>
     </div>
 
     <div id="middle">

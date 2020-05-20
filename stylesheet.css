@@ -134,11 +134,11 @@ a {
     }
 
     .diapo {
-        width: 3200px;
+        width: 3400px;
         height: 0;
         padding-top: 75%;
         background-color: #ededed;
-        background: url("./portfolio/carrousel-3240x720.png");
+        background: url("./portfolio/carrousel-3240x720.jpg");
         background-size: contain;
         animation: defilement 30s linear infinite;
     }
