@@ -19,7 +19,7 @@
 
     <div id="middle">
         <h1>PORTRAIT & ALTERNATIF</h1>
-        <h2>♥ Photographe passionnée ♥</h2>
+        <h2>Photographe passionnée</h2>
         <p>📍Paris & Île-de-France</p>
     </div>
 
