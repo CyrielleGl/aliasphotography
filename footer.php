@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer>
 <hr/>  
-<p>© 2020 Alias Photography ⎜ Site développé par Cyrielle Gallou</p>
+<p id="footer">© 2020 Alias Photography ⎜ Site développé par Cyrielle Gallou</p>
 </footer>

@@ -1,7 +1,7 @@
 <?php include("menu.php");?>
 
 <div>
-    <img src="./portfolio/pauline-2.jpg" id="photo_home" class="responsive" alt="Portrait Louvre Paris Hiver"/>
+    <img src="./portfolio/claire-6.jpg" id="photo_home" class="responsive" alt="Portrait Louvre Paris Hiver"/>
 </div>
 
 <div>

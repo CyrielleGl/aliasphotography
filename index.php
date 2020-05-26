@@ -18,6 +18,16 @@
     </div>
 
     <div id="middle">
+        <h1>PORTRAIT & ALTERNATIF</h1>
+        <h2>♥ Photographe passionnée ♥</h2>
+        <p>📍Paris & Île-de-France</p>
+    </div>
+
+    <div>
+    <img src="./portfolio/juliette-2.jpg" id="photo_home" class="responsive" alt="Shooting Elfe Blanc Hiver" title="Shooting Elfe Blanc Hiver"/>
+    </div>
+
+    <div id="middle">
         <a href="https://www.instagram.com/aliasphotography.fr/" target="blank"><p id="texte_instagram">Retrouvez-moi sur Instagram<img src="./pictos/instagram.png" id="pictos_RS"/></a></p>
     </div>
 

@@ -4,10 +4,34 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), silver, rgba(0, 0, 0, 0));
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
 h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
